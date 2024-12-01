@@ -5,3 +5,6 @@ openai
 matplotlib
 scikit-learn
 python-dotenv
+snowflake
+os
+dotenv
