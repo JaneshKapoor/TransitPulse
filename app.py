@@ -48,7 +48,7 @@ def generate_insights(context):
     )
     return response.choices[0].message['content'].strip()
 
-# Function to generate predictions
+# Function to generate predictionss
 def generate_predictions(data, target_column):
     df = data.copy()
     df = df.dropna()  # Remove missing data
